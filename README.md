@@ -15,6 +15,10 @@ Just add the Vector2.lua file to your project.
 local v1 = Vector2.new(1,2)
 local v2 = Vector2.new(3,3)
 
+-- Access the points
+print("v1.x", v1.x)
+print("v1.y", v1.y)
+
 -- Supports tostring
 print("v1", v1)
 print("v2", v2)
@@ -60,8 +64,12 @@ print("v1:distanceToPoint(5,6)", v1:distanceToPoint(5,6))
 
 #Methods
 
-###Vector2.new()
+###Vector2.new(x, y)
 Creates a new Vector2 object.
+
+Parameters:
+* x - x coordinate of the point
+* y - y coordinate of the point
 
 ###Vector2:distanceTo(vector)
 Returns the distance from self to the given vector.

@@ -2,6 +2,10 @@
 local v1 = Vector2.new(1,2)
 local v2 = Vector2.new(3,3)
 
+-- Access the points
+print("v1.x", v1.x)
+print("v1.y", v1.y)
+
 -- Supports tostring
 print("v1", v1)
 print("v2", v2)
